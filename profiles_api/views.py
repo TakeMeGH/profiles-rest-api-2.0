@@ -14,5 +14,4 @@ class HelloApiView(APIView):
             'Gives you the most control over your logic',
             'Is mapped manually to URLs',
         ]
-        print("test")
         return Response({'message': 'Hello!', 'an_apiview': an_apiview})
